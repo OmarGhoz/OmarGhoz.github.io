@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Emad - Data Science & Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="code-bracket">&lt;</span>
+                <span class="logo-text">AhmedEmad</span>
+                <span class="code-bracket">/&gt;</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="resume-btn" id="resume-btn">
+                    <i class="fas fa-download"></i>
+                    Resume
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-main">
+                <div class="hero-text">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <div class="terminal-title">portfolio.exe</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">whoami</span>
+                            </div>
+                            <div class="terminal-output">
+                                <h1 class="hero-title">
+                                    <span class="greeting">Hello, I'm</span>
+                                    <span class="name typing-text" id="typing-text">Ahmed Emad</span>
+                                    <span class="cursor">|</span>
+                                </h1>
+                                <div class="hero-subtitle">
+                                    <span class="role" id="role-text">Data Science & Engineering Student</span>
+                                </div>
+                                <p class="hero-description">
+                                    Motivated Data Science and Engineering student with expertise in machine learning,
+                                    data engineering, and full-stack data solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <div class="photo-container">
+                        <div class="photo-frame">
+                            <img src="ahmed-photo.jpg" alt="Ahmed Emad" class="profile-photo">
+                            <div class="photo-overlay">
+                                <div class="photo-border"></div>
+                            </div>
+                        </div>
+                        <div class="photo-decorations">
+                            <!-- Floating Tech Icons -->
+                            <div class="floating-icon icon-1">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="floating-icon icon-2">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="floating-icon icon-3">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="floating-icon icon-4">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="floating-icon icon-5">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="floating-icon icon-6">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            
+                            <!-- Geometric Shapes -->
+                            <div class="geometric-shape shape-1"></div>
+                            <div class="geometric-shape shape-2"></div>
+                            
+                            <!-- Rotating Elements -->
+                            <div class="rotating-element element-1">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="rotating-element element-2">
+                                <i class="fas fa-atom"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#projects" class="cta-btn primary">
+                    <i class="fas fa-code"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="cta-btn secondary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span>
+                About Me
+                <span class="title-underline"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="code-block">
+                        <div class="code-header">
+                            <span class="file-name">about.js</span>
+                        </div>
+                        <div class="code-content">
+                            <pre><code><span class="keyword">const</span> <span class="variable">dataScientist</span> = {
+  <span class="property">name</span>: <span class="string">"Ahmed Emad"</span>,
+  <span class="property">location</span>: <span class="string">"Heliopolis, Cairo, Egypt"</span>,
+  <span class="property">education</span>: <span class="string">"Computing & Information Sciences"</span>,
+  <span class="property">university</span>: <span class="string">"Egypt University of Informatics"</span>,
+  <span class="property">recentRole</span>: <span class="string">"Former Data Science Intern @ Orange Egypt"</span>,
+  <span class="property">specializations</span>: [
+    <span class="string">"Machine Learning"</span>,
+    <span class="string">"Data Engineering"</span>,
+    <span class="string">"ETL Pipelines"</span>,
+    <span class="string">"AI Chatbots"</span>
+  ],
+  <span class="property">currentlyWorking</span>: [
+    <span class="string">"Apache Spark"</span>,
+    <span class="string">"Apache Airflow"</span>,
+    <span class="string">"RAG Systems"</span>,
+    <span class="string">"LLM Integration"</span>
+  ]
+};</code></pre>
+                        </div>
+                    </div>
+                    <p>
+                        I'm Ahmed Emad, passionate about designing and building end-to-end data solutions that combine intelligence with real-world impact. My work spans from AI-powered chatbots and recommendation systems to ETL pipelines and data-driven applications, where I focus on scalability, usability, and performance.
+                    </p>
+                    <p>
+                        I am skilled in Python, SQL, Apache Spark, and Airflow, and I enjoy applying machine learning, data engineering, and modern AI techniques to solve complex problems. Beyond the technical side, I value clear communication, collaboration, and continuous learning, with the goal of using data and AI to enable smarter decisions and create better user experiences.
+                    </p>
+                </div>
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Programming Languages</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">C</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">Scala</span>
+                                <span class="skill-tag">Java</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Data Engineering & Big Data</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Apache Spark</span>
+                                <span class="skill-tag">Apache Airflow</span>
+                                <span class="skill-tag">ETL Pipelines</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">dbt</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>ML & AI Frameworks</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Scikit-learn</span>
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">PyTorch</span>
+                                <span class="skill-tag">XGBoost</span>
+                                <span class="skill-tag">Hugging Face</span>
+                                <span class="skill-tag">LangChain</span>
+                                <span class="skill-tag">Streamlit</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Data Analysis & Visualization</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">NumPy</span>
+                                <span class="skill-tag">Matplotlib</span>
+                                <span class="skill-tag">Seaborn</span>
+                                <span class="skill-tag">SciPy</span>
+                                <span class="skill-tag">Dash</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools & Technologies</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">ChromaDB</span>
+                                <span class="skill-tag">Ollama</span>
+                                <span class="skill-tag">Beautiful Soup</span>
+                                <span class="skill-tag">Selenium</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span>
+                Featured Projects
+                <span class="title-underline"></span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/AhmedYasserEssam/Orange_customer_service_chatbot.git" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <button class="project-link video-expand-btn" onclick="openVideoModal('orange-chatbot-video')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <img src="orange_logo.png" alt="Orange Customer Service Chatbot">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Featured Project</span>
+                        <h3 class="project-title">Orange Customer Service Chatbot</h3>
+                        <p class="project-description">
+                            AI-powered customer service assistant for Orange telecom with retrieval-augmented generation (RAG)
+                            for accurate responses. Built with modern Streamlit interface supporting FAQs, billing, mobile/internet
+                            plans, and troubleshooting with secure user authentication and personalized assistance.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">ChromaDB</span>
+                            <span class="tech-tag">Ollama</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">RAG</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="demo-video-btn" onclick="openVideoModal('orange-chatbot-video')">
+                                <i class="fas fa-play"></i>
+                                Watch Demo
+                            </button>
+                            <a href="https://github.com/AhmedYasserEssam/Orange_customer_service_chatbot.git" class="github-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/AhmedYasserEssam/Retail-Data-Pipeline.git" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <button class="project-link video-expand-btn" onclick="openVideoModal('capstone-project-video')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <img src="ETL_photo.jpg" alt="End-to-End Retail Data Pipeline">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Featured Project</span>
+                        <h3 class="project-title">End-to-End Retail Data Pipeline</h3>
+                        <p class="project-description">
+                            Complete ETL process extracting data from PostgreSQL, transforming with Python/pandas,
+                            and generating automated visualizations. Implemented Apache Airflow DAGs with proper
+                            task dependencies, error handling, and scheduling.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Apache Airflow</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">ETL</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="demo-video-btn" onclick="openVideoModal('capstone-project-video')">
+                                <i class="fas fa-play"></i>
+                                Watch Demo
+                            </button>
+                            <a href="https://github.com/AhmedYasserEssam/Retail-Data-Pipeline.git" class="github-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/AhmedYasserEssam/MovieMate-AI.git" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <button class="project-link video-expand-btn" onclick="openVideoModal('moviemate-ai-video')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <img src="MovieMateAI.jpg" alt="Movie Recommendation System">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Featured Project</span>
+                        <h3 class="project-title">Movie Recommendation System</h3>
+                        <p class="project-description">
+                            AI-driven recommendation system with personalized movie and TV show suggestions using
+                            content-based filtering. Built robust data pipeline with Scala and Apache Spark to
+                            process 20,000+ entries, integrated TMDb API for multilingual metadata.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Scala</span>
+                            <span class="tech-tag">Apache Spark</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">TMDb API</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="demo-video-btn" onclick="openVideoModal('moviemate-ai-video')">
+                                <i class="fas fa-play"></i>
+                                Watch Demo
+                            </button>
+                            <a href="https://github.com/AhmedYasserEssam/MovieMate-AI.git" class="github-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span>
+                Experience
+                <span class="title-underline"></span>
+            </h2>
+            <div class="experience-content">
+                <div class="experience-tabs">
+                    <button class="tab-button active" data-tab="work">
+                        Work Experience
+                    </button>
+                    <button class="tab-button" data-tab="education">
+                        Education
+                    </button>
+                    <button class="tab-button" data-tab="volunteering">
+                        Volunteering
+                    </button>
+                </div>
+                <div class="experience-panels">
+                    <div class="experience-panel active" id="work">
+                        <div class="experience-item">
+                            <h3 class="experience-title">
+                                Data Science Intern
+                                <span class="company">@ Orange Egypt</span>
+                            </h3>
+                            <p class="experience-date">August 31, 2025 - September 25, 2025 | Smart Village, Egypt</p>
+                            <ul class="experience-list">
+                                <li>Implemented a classical classification problem using multiple machine learning models, including Logistic Regression, Decision Trees, Random Forest, and XGBoost, to evaluate and compare performance</li>
+                                <li>Developed a customer service chatbot running locally with Ollama, leveraging Llama 3.2 LLM and RAG to answer FAQs, provide bundle information, and assist users with tracking their current consumption</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-panel" id="education">
+                        <div class="experience-item">
+                            <h3 class="experience-title">
+                                Bachelor of Science, Computing and Information Sciences
+                                <span class="company">@ Egypt University of Informatics</span>
+                            </h3>
+                            <p class="experience-date">November 2023 - Present | New Administrative Capital, Egypt</p>
+                            <ul class="experience-list">
+                                <li><strong>Core Courses:</strong> OOP, Algorithm Design and Analysis, Advanced Programming, Data Structures</li>
+                                <li><strong>Mathematics:</strong> Introduction to Probability and Statistics, Computational Linear Algebra</li>
+                                <li><strong>Systems:</strong> Computer Architecture and Organization, Digital Logic Design</li>
+                                <li><strong>Foundations:</strong> Discrete Structures, Programming Fundamentals, Entrepreneurship</li>
+                            </ul>
+                        </div>
+                        <div class="experience-item">
+                            <h3 class="experience-title">
+                                Microsoft Data Engineer Program
+                                <span class="company">@ DEPI - Digital Egypt Pioneers Initiative</span>
+                            </h3>
+                            <p class="experience-date">July 2025 - Present</p>
+                            <ul class="experience-list">
+                                <li><strong>Programming:</strong> Python, OOP, Data Structures and Algorithms</li>
+                                <li><strong>Data Analysis:</strong> NumPy, Pandas, Matplotlib, Seaborn, Dash</li>
+                                <li><strong>Databases:</strong> SQL (MySQL), NoSQL (MongoDB), Data Warehouse and Modeling</li>
+                                <li><strong>Tools:</strong> Python for Databases and APIs, dbt (data build tool)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-panel" id="volunteering">
+                        <div class="experience-item">
+                            <h3 class="experience-title">
+                                Student Ambassador
+                                <span class="company">@ Egypt University of Informatics</span>
+                            </h3>
+                            <p class="experience-date">August 2025 | EduGate, Egypt</p>
+                            <ul class="experience-list">
+                                <li>Represented EUI at EduGate, providing information about Computing and Information Sciences program</li>
+                                <li>Guided prospective students, parents, and visitors about university offerings</li>
+                                <li>Demonstrated strong communication and presentation skills</li>
+                            </ul>
+                        </div>
+                        <div class="experience-item">
+                            <h3 class="experience-title">
+                                RYLA Program Participant
+                                <span class="company">@ Rotary</span>
+                            </h3>
+                            <p class="experience-date">December 2023 | Ain El Sokhna, Egypt</p>
+                            <ul class="experience-list">
+                                <li>Attended Multi-Club RYLA leadership program focused on youth leadership development</li>
+                                <li>Enhanced teamwork and community engagement skills</li>
+                                <li>Participated in transformative leadership training activities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span>
+                Get In Touch
+                <span class="title-underline"></span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p class="contact-description">
+                        I'm actively seeking internship and entry-level opportunities in data science and data engineering.
+                        Whether you have exciting projects, collaboration opportunities, or just want to discuss
+                        machine learning and data solutions, I'd love to connect with you!
+                    </p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> ahmedyasser200580@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +201067197511</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Heliopolis, Cairo, Egypt</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="contact-cta">
+                        <h3>Let's Connect!</h3>
+                        <p>Ready to discuss opportunities, collaborations, or just want to say hello? I'd love to hear from you!</p>
+                        <a href="mailto:ahmedyasser200580@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Ahmed,%0D%0A%0D%0AI%20found%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch%20about:%0D%0A%0D%0A" class="email-btn">
+                            <i class="fas fa-envelope"></i>
+                            Send Me an Email
+                        </a>
+                        <div class="email-preview">
+                            <p><strong>Direct email:</strong> ahmedyasser200580@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/AhmedYasserEssam" class="social-link" title="GitHub Profile" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ahmed-yasser-essam" class="social-link" title="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="tel:+201067197511" class="social-link" title="Call Me">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="video-modal">
+        <div class="video-modal-content">
+            <span class="video-modal-close" onclick="closeVideoModal()">&times;</span>
+            <video id="orange-chatbot-video" controls autoplay loop muted width="100%" height="auto" style="display: none;">
+                <source src="orange-chatbot-demo.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+                <source src="orange-chatbot-demo.webm" type="video/webm; codecs=vp9,vorbis">
+                Your browser does not support the video tag.
+            </video>
+            <video id="capstone-project-video" controls autoplay loop muted width="100%" height="auto" style="display: none;">
+                <source src="Capstone_project.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="moviemate-ai-video" controls autoplay loop muted width="100%" height="auto" style="display: none;">
+                <source src="MovieMateAI.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div id="orange-chatbot-info" class="video-modal-info" style="display: none;">
+                <h3>Orange Customer Service Chatbot</h3>
+                <p>AI-powered customer service assistant with retrieval-augmented generation (RAG)</p>
+            </div>
+            <div id="capstone-project-info" class="video-modal-info" style="display: none;">
+                <h3>End-to-End Retail Data Pipeline</h3>
+                <p>Complete ETL process with Apache Airflow, PostgreSQL, and automated visualizations</p>
+            </div>
+            <div id="moviemate-ai-info" class="video-modal-info" style="display: none;">
+                <h3>Movie Recommendation System</h3>
+                <p>AI-driven recommendation system with Scala, Apache Spark, and TMDb API integration</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ahmed Emad</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

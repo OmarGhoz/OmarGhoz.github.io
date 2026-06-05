@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Ghoz - Data Science & Engineering Portfolio</title>
+    <link rel="stylesheet" href="E:\Programming\DEPI\Portfolio\styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="code-bracket">&lt;</span>
+                <span class="logo-text">Omar Ghoz</span>
+                <span class="code-bracket">/&gt;</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="resume-btn" id="resume-btn">
+                    <i class="fas fa-download"></i>
+                    Resume
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-main">
+                <div class="hero-text">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <div class="terminal-title">portfolio.exe</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">whoami</span>
+                            </div>
+                            <div class="terminal-output">
+                                <h1 class="hero-title">
+                                    <span class="greeting">Hello, I'm</span>
+                                    <span class="name typing-text" id="typing-text">Omar Ghoz</span>
+                                    <span class="cursor">|</span>
+                                </h1>
+                                <div class="hero-subtitle">
+                                    <span class="role" id="role-text">Data Science & Engineering Student</span>
+                                </div>
+                                <p class="hero-description">
+                                    A versatile engineer with experience in Backend Development, AI, and Data Engineering, passionate about 
+                                    building robust and scalable data solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <div class="photo-container">
+                        <div class="photo-frame">
+                            <img src="IMG_0973.jpg" alt="Omar Ghoz" class="profile-photo">
+                            <div class="photo-overlay">
+                                <div class="photo-border"></div>
+                            </div>
+                        </div>
+                        <div class="photo-decorations">
+                            <!-- Floating Tech Icons -->
+                            <div class="floating-icon icon-1">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="floating-icon icon-2">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="floating-icon icon-3">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="floating-icon icon-4">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="floating-icon icon-5">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="floating-icon icon-6">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            
+                            <!-- Geometric Shapes -->
+                            <div class="geometric-shape shape-1"></div>
+                            <div class="geometric-shape shape-2"></div>
+                            
+                            <!-- Rotating Elements -->
+                            <div class="rotating-element element-1">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="rotating-element element-2">
+                                <i class="fas fa-atom"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#projects" class="cta-btn primary">
+                    <i class="fas fa-code"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="cta-btn secondary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="section-number">01.</span>
+            About Me
+            <span class="title-underline"></span>
+        </h2>
+        <div class="about-content">
+            <div class="about-text">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="file-name">about.js</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code><span class="keyword">const</span> <span class="variable">omarGhoz</span> = {
+  <span class="property">role</span>: <span class="string">"Data Engineer & Full-Stack Developer"</span>,
+  <span class="property">location</span>: <span class="string">"Cairo, Egypt"</span>,
+  <span class="property">experience</span>: <span class="string">"3+ Years in Global Freelance Market"</span>,
+  <span class="property">education</span>: <span class="string">"Information Technology @ Thebes Academy"</span>,
+  <span class="property">specializations</span>: [
+    <span class="string">"Data Engineering & ETL Pipelines"</span>,
+    <span class="string">"AI & RAG Systems"</span>,
+    <span class="string">"Back-End Architecture"</span>,
+    <span class="string">"Advanced Automation"</span>
+  ],
+  <span class="property">currentTechStack</span>: [
+    <span class="string">"Python"</span>,
+    <span class="string">"Apache Spark"</span>,
+    <span class="string">"n8n"</span>,
+    <span class="string">"Playwright"</span>,
+    <span class="string">"React & Node.js"</span>
+  ]
+};</code></pre>
+                    </div>
+                </div>
+                <p>
+                    I'm Omar, a dedicated Data Engineer and Full-Stack Developer with over three years of proven experience in the global freelance market. I specialize in architecting intelligent data solutions, building scalable back-end systems, and developing advanced automation workflows.
+                </p>
+                <p>
+                    My technical journey spans across constructing robust ETL pipelines, deploying Machine Learning models and RAG-based LLM agents, and extracting complex data using Python, Playwright, and n8n. I am passionate about writing clean, efficient code and leveraging data-driven decision-making to build impactful, scalable software.
+                </p>
+            </div>
+            
+            <div class="skills-section">
+                <h3>Technical Stack</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Programming & Databases</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">C/C++</span>
+                            <span class="skill-tag">Scala</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Data Engineering & Big Data</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Apache Spark</span>
+                            <span class="skill-tag">Apache Airflow</span>
+                            <span class="skill-tag">ETL Pipelines</span>
+                            <span class="skill-tag">dbt</span>
+                            <span class="skill-tag">Pandas / NumPy</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>AI & Machine Learning</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">ChromaDB</span>
+                            <span class="skill-tag">Ollama</span>
+                            <span class="skill-tag">LangChain</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">Hugging Face</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Full-Stack & Automation</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">n8n</span>
+                            <span class="skill-tag">Playwright</span>
+                            <span class="skill-tag">Beautiful Soup</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="section-number">02.</span>
+            Featured Projects
+            <span class="title-underline"></span>
+        </h2>
+        <div class="projects-grid">
+            
+            <div class="project-card featured">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <button class="project-link video-expand-btn" onclick="openVideoModal('quant-engine-video')">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <img src="Futuristic trading and AI workstation.png" alt="Quant Data Engine for Algorithmic Trading">
+                </div>
+                <div class="project-content">
+                    <span class="project-type">Freelance Client Project</span>
+                    <h3 class="project-title">Quant Data Engine & Algorithmic Trading</h3>
+                    <p class="project-description">
+                        Architected and developed an end-to-end data engine designed to extract and process options trading data from the Options Clearing Corporation (OCC) to power algorithmic trading strategies. Built robust, multi-phase ETL pipelines ensuring high-accuracy financial data processing, resulting in a 5-star client review.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Data Engineering</span>
+                        <span class="tech-tag">ETL Pipelines</span>
+                        <span class="tech-tag">Financial Data</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="demo-video-btn" onclick="openVideoModal('quant-engine-video')">
+                            <i class="fas fa-play"></i>
+                            Watch Demo
+                        </button>
+                        <a href="https://github.com/OmarGhoz/AlgoTrading-Data-Engine" class="github-btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card featured">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/OmarGhoz/Faragny" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <button class="project-link video-expand-btn" onclick="openVideoModal('faragny-video')">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <img src="Faragny Poster.png" alt="Faragny Semantic Search Platform">
+                </div>
+                <div class="project-content">
+                    <span class="project-type">Featured Project</span>
+                    <h3 class="project-title">Faragny - Movie Discovery Platform</h3>
+                    <p class="project-description">
+                        A full-stack movie discovery platform leveraging semantic search and vector embeddings. Implemented an advanced data engineering pipeline to ingest, process, and index high-dimensional metadata for thousands of titles, delivering highly accurate contextual and semantic search results.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Vector Embeddings</span>
+                        <span class="tech-tag">Semantic Search</span>
+                        <span class="tech-tag">Data Pipeline</span>
+                        <span class="tech-tag">Full-Stack</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="demo-video-btn" onclick="openVideoModal('faragny-video')">
+                            <i class="fas fa-play"></i>
+                            Watch Demo
+                        </button>
+                        <a href="https://github.com/OmarGhoz" class="github-btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card featured">
+                <div class="project-image">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/OmarGhoz/Customer-Service-ChatBot" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <button class="project-link video-expand-btn" onclick="openVideoModal('orange-chatbot-video')">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <img src="ChatBot Poster.png" alt="Orange Customer Service Chatbot">
+                </div>
+                <div class="project-content">
+                    <span class="project-type">Internship Project</span>
+                    <h3 class="project-title">Orange Customer Service Chatbot</h3>
+                    <p class="project-description">
+                        An AI-powered customer service assistant prototype developed for Orange Egypt utilizing Retrieval-Augmented Generation (RAG). Handles personalized user data and features intent classification to accurately resolve line consumption, billing, and troubleshooting inquiries via a streamlined Streamlit interface.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">ChromaDB</span>
+                        <span class="tech-tag">Ollama</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">Intent Classification</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="demo-video-btn" onclick="openVideoModal('orange-chatbot-video')">
+                            <i class="fas fa-play"></i>
+                            Watch Demo
+                        </button>
+                        <a href="https://github.com/OmarGhoz" class="github-btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="section-number">03.</span>
+            Experience
+            <span class="title-underline"></span>
+        </h2>
+        <div class="experience-content">
+            <div class="experience-tabs">
+                <button class="tab-button active" data-tab="work">Work Experience</button>
+                <button class="tab-button" data-tab="education">Education</button>
+                <button class="tab-button" data-tab="certifications">Certifications</button>
+            </div>
+            <div class="experience-panels">
+                
+                <div class="experience-panel active" id="work">
+                    <div class="experience-item">
+                        <h3 class="experience-title">
+                            Data Engineer & Full-Stack Developer
+                            <span class="company">@ Freelance (Upwork, Mostaql)</span>
+                        </h3>
+                        <p class="experience-date">2023 - Present | Global Freelance Market</p>
+                        <ul class="experience-list">
+                            <li>Architected and developed "Quant Data Engine" for OCC options trading data, ensuring high-accuracy data pipelines and earning a 5-star client review.</li>
+                            <li>Built advanced web scraping and automation tools using Python, Playwright, and Beautiful Soup, integrating n8n workflows to accelerate data extraction.</li>
+                            <li>Founded and managed "Academic Help," a platform providing advanced statistical analysis and technical support for researchers across the MENA region.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3 class="experience-title">
+                            Data Science Intern
+                            <span class="company">@ Orange Egypt</span>
+                        </h3>
+                        <p class="experience-date">August 31, 2025 - September 25, 2025 | Smart Village, Egypt</p>
+                        <ul class="experience-list">
+                            <li>Developed an AI Customer Service Chatbot prototype utilizing RAG and Intent Classification. Integrated Llama 3.2 and ChromaDB using Ollama and Streamlit.</li>
+                            <li>Applied and analyzed classical business telecom problems using ML algorithms including Logistic Regression, Decision Trees, Random Forest, and XGBoost to evaluate and compare performance.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-panel" id="education">
+                    <div class="experience-item">
+                        <h3 class="experience-title">
+                            Bachelor of Science, Information Technology
+                            <span class="company">@ Thebes Academy</span>
+                        </h3>
+                        <p class="experience-date">Current Student | Cairo, Egypt</p>
+                        <ul class="experience-list">
+                            <li><strong>Core Courses:</strong> Data Structures, Algorithm Design and Analysis, Advanced Programming, and Database Engineering.</li>
+                            <li><strong>Foundations:</strong> Discrete Structures, Programming Fundamentals, and Computational Mathematics.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-panel" id="certifications">
+                    <div class="experience-item">
+                        <h3 class="experience-title">
+                            Microsoft Data Engineer
+                            <span class="company">@ DEPI (Digital Egypt Pioneers Initiative)</span>
+                        </h3>
+                        <p class="experience-date">July 2025 - Present | Ministry of Communications & IT Egypt</p>
+                        <ul class="experience-list">
+                            <li>Advanced specialization in Big Data engineering, data warehousing, and data modeling.</li>
+                            <li>Hands-on technical expertise with dbt (data build tool), SQL (MySQL), NoSQL (MongoDB), Pandas, NumPy, and Dash dashboards.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3 class="experience-title">
+                            IBM Full Stack Software Developer
+                            <span class="company">@ IBM (Coursera)</span>
+                        </h3>
+                        <p class="experience-date">15-Course Professional Certificate</p>
+                        <ul class="experience-list">
+                            <li>Completed a rigorous 15-course specialization covering Cloud Computing, React frontend development, and Node.js backend.</li>
+                            <li>Built and deployed practical applications integrated with Generative AI tools and technologies.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <h3 class="experience-title">
+                            Back-End Web Development
+                            <span class="company">@ ALX Africa</span>
+                        </h3>
+                        <p class="experience-date">Professional Training Program</p>
+                        <ul class="experience-list">
+                            <li>Built robust backend architectures, server management, and advanced API design for scalable applications.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span>
+                Get In Touch
+                <span class="title-underline"></span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p class="contact-description">
+                        I'm actively seeking internship and entry-level opportunities in data science and data engineering.
+                        Whether you have exciting projects, collaboration opportunities, or just want to discuss
+                        machine learning and data solutions, I'd love to connect with you!
+                    </p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> omarghoz999@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +201029522532</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Heliopolis, Cairo, Egypt</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="contact-cta">
+                        <h3>Let's Connect!</h3>
+                        <p>Ready to discuss opportunities, collaborations, or just want to say hello? I'd love to hear from you!</p>
+                        <a href="mailto:omarghoz999@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Omar,%0D%0A%0D%0AI%20found%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch%20about:%0D%0A%0D%0A" class="email-btn">
+                            <i class="fas fa-envelope"></i>
+                            Send Me an Email
+                        </a>
+                        <div class="email-preview">
+                            <p><strong>Direct email:</strong> omarghoz999@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/OmarGhoz" class="social-link" title="GitHub Profile" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/omar-ghoz-/" class="social-link" title="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="tel:+201029522532" class="social-link" title="Call Me">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="video-modal">
+    <div class="video-modal-content">
+        <span class="video-modal-close" onclick="closeVideoModal()">&times;</span>
+        
+        <video id="quant-engine-video" controls autoplay loop muted width="100%" height="auto" style="display: none;">
+            <source src="Quant_project_demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video id="faragny-video" controls autoplay loop muted width="100%" height="auto" style="display: none;">
+            <source src="MovieMateAI.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video id="orange-chatbot-video" controls autoplay loop muted width="100%" height="auto" style="display: none;">
+            <source src="orange-chatbot-demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div id="quant-engine-info" class="video-modal-info" style="display: none;">
+            <h3>Quant Data Engine & Algorithmic Trading</h3>
+            <p>End-to-end financial data pipeline and automated infrastructure demonstration.</p>
+        </div>
+        <div id="faragny-info" class="video-modal-info" style="display: none;">
+            <h3>Faragny - Movie Discovery Platform</h3>
+            <p>Showcasing semantic search capabilities and high-dimensional vector embeddings workflow.</p>
+        </div>
+        <div id="orange-chatbot-info" class="video-modal-info" style="display: none;">
+            <h3>Orange Customer Service Chatbot</h3>
+            <p>AI-powered RAG assistant featuring intent classification and secure context handling.</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Omar Ghoz</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="E:\Programming\DEPI\Portfolio\script.js"></script></body>
+</html>
